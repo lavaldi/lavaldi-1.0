@@ -1,3 +1,7 @@
+/**
+ * HEADER
+**/
+
 .site-nav{
   text-align: center;
 
@@ -15,7 +19,7 @@
 .site-title a{
   color: #000;
   text-shadow:
-    1px 0px 1px #fff, 0px 1px 1px #fff, 
+    1px 0px 1px #fff, 0px 1px 1px #fff,
     2px 1px 1px #fff, 1px 2px 1px #fff,
     3px 2px 1px #fff, 2px 3px 1px #fff,
     4px 3px 1px #fff, 3px 4px 1px #fff,
@@ -34,4 +38,31 @@
   background: url('/images/header-bg.png');;
   background-size: 205px 355px;
   background-position: center center;
+}
+
+/**
+ * FOOTER
+**/
+.site-footer{
+  padding: 2em 0;
+  color: #fff;
+  background: $grey-color-dark;
+}
+
+.footer-content{
+  float: left;
+  width: 40%;
+  font-size: 0.875em;
+
+  h3{
+    text-align: left;
+  }
+}
+
+.footer-social{
+  float: right;
+  li{
+    display: inline-block;
+    margin: 0 0.5em;
+  }
 }
