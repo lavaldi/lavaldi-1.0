@@ -47,21 +47,29 @@
   padding: 2em 0;
   color: #fff;
   background: $grey-color-dark;
+
+  .wrapper{
+    font-size: 0;
+  }
 }
 
-.footer-content{
-  float: left;
-  width: 40%;
-  font-size: 0.875em;
+.footer-content, .footer-social {
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: top;
+}
 
-  h3{
+.footer-content {
+  width: 60%;
+  h3 {
     text-align: left;
   }
 }
 
-.footer-social{
-  float: right;
-  li{
+.footer-social {
+  text-align: right;
+  width: 40%;
+  li {
     display: inline-block;
     margin: 0 0.5em;
   }
