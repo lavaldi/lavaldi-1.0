@@ -2,7 +2,7 @@
 layout: post
 title: "Sabiduría Humana"
 date: 2015-10-22 23:35:32 -05:00
-categories: Jesus Freak
+categories: jesusfreak
 tags: sabiduría
 featured: true
 ---
