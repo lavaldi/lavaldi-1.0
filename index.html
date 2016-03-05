@@ -3,6 +3,15 @@ layout: default
 ---
 
 <div class="home">
+  <section class="text">
+    <p>
+        <img src="/images/lavaldi.jpg" alt="La Valdi" class="avatar" />
+    </p>
+    <p class="intro">
+      Hi! I'm Claudia Valdivieso (alias "La Valdi"), a front-end programmer, accidental writer, and a Jesus freak for ever ❤️❤️❤️.
+    </p>
+  </section>
+
   <!-- Section for featured post -->
   <section class="site-section">
     <div class="wrapper">
@@ -18,8 +27,16 @@ layout: default
         {% endfor %}
     </div>
   </section>
-  <!-- Section for featured projects -->
-  <!-- Section for latest articles -->
+  <!-- Section for featured works -->
+  <section class="site-section">
+    <h1>last projects</h1>
+    <ul class="work-list">
+      {% for work in site.categories['work'] | limit: 3 %}
+        {% include work.html %}
+      {% endfor %}
+    </ul>
+  </section>
+  <!-- Section for latest articles
   <section class="site-section site-section-last">
     <div class="wrapper">
       <h1>latest articles</h1>
@@ -32,4 +49,5 @@ layout: default
       </ul>
     </div>
   </section>
+  -->
 </div>
