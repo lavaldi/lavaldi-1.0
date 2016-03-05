@@ -14,6 +14,10 @@
     margin: 0 0.5em;
     font-size: 1.5em;
   }
+
+  .active{
+    text-decoration: underline;
+  }
 }
 
 .site-title a{
@@ -34,7 +38,6 @@
 
 .site-header{
   padding: 2em 0 0;
-  border-bottom: 1px solid #ccc;
   background: url('/images/header-bg.png');;
   background-size: 205px 355px;
   background-position: center center;

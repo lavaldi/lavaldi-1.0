@@ -1,0 +1,17 @@
+.work-list{
+  @extend %clearfix;
+  padding: 0;
+  list-style: none;
+}
+
+.work{
+  float: left;
+  width: 33.33%;
+  padding: 0 1em;
+  text-align: center;
+}
+
+.work-caption{
+  margin-top: 0.5em;
+  font-size: $h3-font-size;
+}
