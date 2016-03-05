@@ -1,15 +1,13 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: "About me"
+permalink: /about-me/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<p><img src="/images/lavaldi.jpg" alt="La Valdi" class="avatar" /></p>
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Hola soy Claudia Valdivieso (alias "La Valdi"), soy front-end developer, escritora accidental y salva por la gracia de Dios ❤️❤️❤️.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Soy programadora Front End en Orbis Ventures, donde desarrollamos el portal de empleos APTiTUS.com. Antes de eso formé una empresa con unos amigos donde diseñábamos y desarrollábamos publicaciones, sitios web y aplicaciones para los clientes. Además algunos tenían (y tienen) el sueño de hacer videojuegos.
+
+Puedes encontrarme en [Twitter](https://twitter.com/lavaldi_), [Github](https://github.com/lavaldi), [Facebook](https://facebook.com/ClaudiaValdiviesoCastillo), [Instagram](https://www.instagram.com/lavaldi/), [Flickr](https://www.flickr.com/photos/la_valdi) y [Spotify](http://play.spotify.com/user/lavaldi_), o enviarme un [correo](mailto:claumavaldivieso@gmail.com).
