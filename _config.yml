@@ -20,13 +20,13 @@ permalink: /:categories/:title
 
 links:
   - title: about
-    url: /about
+    url: /about-me/
   - title: work
-    url: /work
+    url: /work/
   - title: jesus freak
-    url: /jesus-freak
+    url: /jesus-freak/
   - title: learn
-    url: learn
+    url: /learn/
 
 # Build settings
 markdown: kramdown
