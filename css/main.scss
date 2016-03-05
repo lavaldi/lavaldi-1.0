@@ -27,9 +27,9 @@ $background-color: #FFFFFF;
 $brand-color:      #F80036;
 $deep-brand-color: #C5002B;
 
-$blue-color: #92b5bd;
-$yellow-color: #ede24e;
-$yellow-color: #df6d59;
+$blue-color: #1495C5;
+$yellow-color: #F9EC19;
+$red-color: #AB1133;
 $deep-purple-color: #302782;
 
 $grey-color:       #828282;
@@ -64,5 +64,7 @@ $on-laptop:        800px;
         "base",
         "layout",
         "syntax-highlighting",
-        "components/post"
+        "components/index",
+        "components/post",
+        "components/work"
 ;
