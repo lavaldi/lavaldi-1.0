@@ -32,4 +32,5 @@ links:
 markdown: kramdown
 
 gems:
+  - jekyll-sitemap
   - jemoji
