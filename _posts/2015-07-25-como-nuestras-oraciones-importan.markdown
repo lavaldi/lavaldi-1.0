@@ -88,4 +88,4 @@ Entonces, la próxima vez que ores, pídele a Dios que escuche y vea y que no te
 
 ***
 
-Enseñanza tomada de: http://webmedia.gty.org/gracia/sermons/High/42-157.mp3
+Enseñanza tomada de: ["Orar con valentía" en gracia.org](http://www.gracia.org/Productos.aspx?product=42-157)

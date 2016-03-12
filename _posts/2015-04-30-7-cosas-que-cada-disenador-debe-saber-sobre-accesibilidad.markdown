@@ -13,7 +13,7 @@ Accesibilidad permite a las personas con discapacidad puedan percibir, entender,
 
 Estas directrices cubrirán las principales cosas que hay que saber para que sus productos sean "design-ready" para cumplir con el mínimo de normas en [la Sección 508](http://www.section508.gov/section-508-standards-guide) y la [Web Content Accessibility Guidelines 2.0](http://www.w3.org/TR/WCAG20/). El resto será para el desarrollo y las pruebas de calidad.
 
-##1. La accesibilidad no es una barrera para la innovación.
+## 1. La accesibilidad no es una barrera para la innovación. #
 
 La accesibilidad no te obligará a hacer un producto que es feo, aburrido o desordenado. Te introducirá en un conjunto de restricciones para incorporar al considerar tu diseño. Estas restricciones de diseño te darán nuevas ideas para explorar que darán lugar a mejores productos para todos sus usuarios.
 
@@ -22,12 +22,13 @@ Al leer estas directrices, ten en cuenta que nosotros no queremos diseñar para 
 Diseña para el conjunto diverso de usuarios que van a interactuar con tus productos.
 
 ![Diseño para todos]({{ site.baseurl }}/assets/design-for-all.jpg 'Diseño para todos')
+{:.center}
 
 Esto puede incluir a las personas que son ciegos, ceguera al color o tienen baja visión, los que son sordos o tienen dificultades de audición, las personas con problemas de movilidad que pueden ser temporales o permanentes, o personas con discapacidades cognitivas. Diseña para las personas que son jóvenes, viejos, los usuarios avanzados, los usuarios ocasionales, y los que simplemente disfrutar de una experiencia de calidad.
 
 Abrazo estas pautas de accesibilidad como lo haría con cualquier conjunto de restricciones de diseño. Ellos son parte del desafío de crear productos sorprendentes.
 
-##2. No utilices el color como el único medio de transmisión de información visual.
+## 2. No utilices el color como el único medio de transmisión de información visual. #
 
 Esto ayuda a los usuarios que no pueden, o que tienen dificultad con distinguir un color de otro. Esto incluye a las personas que son ciegas al color (1 de cada 12 hombres, 1 de cada 200 mujeres), con baja visión (1 de cada 30 personas), o son ciegos (1 de cada 188 personas).
 
@@ -36,14 +37,16 @@ Esto ayuda a los usuarios que no pueden, o que tienen dificultad con distinguir 
 En este ejemplo que se muestra en escala de grises, ¿cuántos campos dirías que se encuentran en un estado de error?
 
 ![¿Cuántos campos se encuentran en un estado de error?]({{ site.baseurl }}/assets/error-state.png '¿Cuántos campos se encuentran en un estado de error?')
-¿Cuántos campos se encuentran en un estado de error?
+*¿Cuántos campos se encuentran en un estado de error?*
+{:.center}
 
 La mayoría que ve esto en escala de grises dicen que la respuesta es una, el campo "verificación humana". Eso es porque el triángulo con el signo de exclamación en el interior indica que algo anda mal.
 
 Ahora mira esta misma pantalla en color. ¿Cuántos campos se encuentran en un estado de error?
 
 ![Encender el color revela una historia totalmente diferente.]({{ site.baseurl }}/assets/play-color.png 'Encender el color revela una historia totalmente diferente.')
-Encender el color revela una historia totalmente diferente.
+*Encender el color revela una historia totalmente diferente.*
+{:.center}
 
 Con el color la respuesta se convierte en, "los cuatro".
 
@@ -53,7 +56,7 @@ Hay muchas maneras aceptables para hacer esta forma visualmente accesible. Podr�
 
 *(Resulta que el problema de accesibilidad que se ha descrito anteriormente en el ejemplo PayPal es causada por el plugin LastPass en mi navegador. Gracias a Tony Amidei de PayPal por señalar esto. Como está diseñado, los iconos de triángulo siempre aparecen en los campos en un estado de error.)*
 
-##3. Asegurar suficiente contraste entre el texto y el fondo.
+## 3. Asegurar suficiente contraste entre el texto y el fondo. #
 
 De acuerdo con la [WCAG](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html), la relación de contraste entre el texto y el fondo de un texto debe ser de al menos 4,5 a 1. Si la fuente es de al menos 24 px o 19 px en negrita, el mínimo se reduce de 3 a 1.
 
@@ -61,12 +64,15 @@ Esta guía ayuda a los usuarios con baja visión, ceguera al color, o empeoramie
 
 Esto significa que cuando el texto es de 24 px, 19 px negrita, o más grande, el gris más claro que se puede utilizar en un fondo blanco es <span style="color:white;background:#959595;">#959595</span>.
 
-![Color de texto #959595 sobre un fondo blanco.]({{ site.baseurl }}/assets/change-color-959595.png 'Color de texto #959595 sobre un fondo blanco.') Color de texto #959595 sobre un fondo blanco.
+![Color de texto #959595 sobre un fondo blanco.]({{ site.baseurl }}/assets/change-color-959595.png 'Color de texto #959595 sobre un fondo blanco.')
+*Color de texto #959595 sobre un fondo blanco.*
+{:.center}
 
 Para ver el texto más pequeño, el gris más claro se puede utilizar en un fondo blanco es <span style="color:white;background:#767676;">#767676</span>. Si tienes un fondo gris, el texto debe ser más oscuro.
 
 ![Color de texto #767676 sobre un fondo blanco]({{ site.baseurl }}/assets/color-767676-above-white.png 'Color de texto #767676 sobre un fondo blanco')
-Color de texto #767676 sobre un fondo blanco.
+*Color de texto #767676 sobre un fondo blanco.*
+{:.center}
 
 Hay algunas grandes herramientas que pueden ayudar a encontrar una paleta de colores accesibles para tus diseños, incluyendo [Color Safe](http://colorsafe.co/). Existe también un [verificador de contraste de color de WebAIM](http://webaim.org/resources/contrastchecker/), que te permite probar los colores que ya has elegido.
 
@@ -78,13 +84,14 @@ He aquí un ejemplo de un sitio de blogs popular con contraste de texto que est�
 El siguiente ejemplo de la BBC muestra una interfaz de usuario con el paso de combinaciones de colores. Se puede decir que están buscando activamente para aprobar relaciones de contraste, ya que su gris más claro es <span style="color:white;background:#767676;">#767676</span>.
 
 ![Un ejemplo de uso de contraste de color.]({{ site.baseurl }}/assets/contrast-color-example.png 'Un ejemplo de uso de contraste de color.')
-Un ejemplo de uso de contraste de color.
+*Un ejemplo de uso de contraste de color.*
+{:.center}
 
 Explora usando combinaciones de alto contraste. Los diseñadores que han pasado por este ejercicio a menudo son sorprendidos por lo mucho que prefieren diseños con mayor contraste. Estoy seguro de que usted también encontrará que el texto se visualiza mejor utilizando el contraste mínimo permitido no en detrimento de sus productos.
 
 Echa un vistazo a [Proyectors Don't Lie](https://medium.com/salesforce-ux/projectors-dont-lie-b85ef628b04) y a [Accessible Interface Design](https://medium.com/salesforce-ux/accessible-interface-design-d80e95cbb2c1) para más información sobre el contraste de colores.
 
-##4. Proporcionar indicación del enfoque visual para el foco del teclado.
+## 4. Proporcionar indicación del enfoque visual para el foco del teclado. #
 
 Tomemos un momento para dar gracias por la hoja de estilos de reset. Sin hojas de estilo de reinicio, sería mucho más difícil crear una experiencia consistente a través de diferentes dispositivos y navegadores.
 
@@ -99,7 +106,8 @@ Esta sola línea de CSS hace que sea casi imposible para un usuario utilizar un 
 La intención :focus era lo suficientemente noble: quitar estilos de enfoque por defecto con la intención de que los diseñadores y desarrolladores lo reemplazaran con algo que sea visible y que coincida con el estilo de sus páginas web. Es bastante fácil que no les gustara el borde gris para el focus en IE y Firefox o el halo azul en Chrome.
 
 ![Por defecto para el estado focus para Chrome y Firefox]({{ site.baseurl }}/assets/focus-chrome-firefox.png 'Por defecto para el estado focus para Chrome y Firefox')
-Por defecto para el estado focus para Chrome y Firefox
+*Por defecto para el estado focus para Chrome y Firefox*
+{:.center}
 
 El problema es que la mayoría de los sitios web no crean sus propios estilos de enfoque. Estos indicadores de enfoque, que son fundamentales para el éxito de los usuarios que usan solo teclado, son en gran medida ausentes en la web.
 
@@ -119,11 +127,11 @@ Al proporcionar tus propios estados de enfoque, sólo asegúrate de quitar el es
 
 ![]({{ site.baseurl }}/assets/overlay-focus.png)
 
-##5. Tenga cuidado con los formularios.
+## 5. Tenga cuidado con los formularios. #
 
 En los últimos años hemos experimentado un involución en los campos del formulario. Diseños modernos han renunciado a la tradicional identificación de atributos y affordances interactivos en favor de un enfoque más minimalista. Los formularios de hoy carecen de dos elementos específicos que son vitales para la accesibilidad: bordes claramente definidos y labels visibles.
 
-###Formularios sin Bordes
+### Formularios sin Bordes #
 
 A continuación se muestra un ejemplo de una entrada de texto tradicional. Es un rectángulo con un límite definido. Puede ser lleno de color, pero no tiene que ser llenado. También hay un label visible, que en este ejemplo se encuentra a la izquierda del campo.
 
@@ -133,7 +141,9 @@ Bordes claramente definidos para los campos del formulario son importantes para
 
 A continuación se muestra un ejemplo de un campo de búsqueda de una aplicación popular para tomar notas.
 
-![¿Dónde puedo hacer clic si quiero ingresar un término de búsqueda? El cursor se retiró para dar énfasis.]({{ site.baseurl }}/assets/borderless-input.png '¿Dónde puedo hacer clic si quiero ingresar un término de búsqueda? El cursor se retiró para dar énfasis.') ¿Dónde puedo hacer clic si quiero ingresar un término de búsqueda? El cursor se retiró para dar énfasis.
+![¿Dónde puedo hacer clic si quiero ingresar un término de búsqueda? El cursor se retiró para dar énfasis.]({{ site.baseurl }}/assets/borderless-input.png '¿Dónde puedo hacer clic si quiero ingresar un término de búsqueda? El cursor se retiró para dar énfasis.')
+*¿Dónde puedo hacer clic si quiero ingresar un término de búsqueda? El cursor se retiró para dar énfasis.*
+{:.center}
 
 Sólo hay una entrada en esta pantalla. ¿Puedes adivinar de los bordes del campo de formulario? Al hacer clic en cualquier lugar de las palabras "search notes" se colocará en el interior de la entrada.
 
@@ -151,13 +161,15 @@ A continuación se muestra otro ejemplo de un diseño de toma de notas. Esto tam
 
 ¿Puedes pensar en algunas otras opciones para estos diseñadores? ¿Cómo diseñar una toma de notas o aplicación de publicación de blogs?
 
-###Formularios sin labels
+### Formularios sin labels #
 
 Los labels le dicen al usuario el propósito del campo, mantienen su utilidad cuando el foco se coloca dentro del campo y permanecen incluso después de completar el campo. El texto de placeholder es un pobre sustituto de una etiqueta visual.
 
 Por lo general son de bajo contraste. De los siete ejemplos a continuación, sólo uno tiene suficiente contraste para satisfacer nuestra proporción necesaria de 4,5 : 1.
 
-![Sólo el placeholder de "Search Twitter" tiene el nivel de contraste mínimo requerido.]({{ site.baseurl }}/assets/search-twitter.png) Sólo el placeholder de "Search Twitter" tiene el nivel de contraste mínimo requerido.
+![Sólo el placeholder de "Search Twitter" tiene el nivel de contraste mínimo requerido.]({{ site.baseurl }}/assets/search-twitter.png)
+*Sólo el placeholder de "Search Twitter" tiene el nivel de contraste mínimo requerido.*
+{:.center}
 
 El texto de placeholder desaparece. En los siguientes ejemplos, ¿qué se supone que voy a ingresar en el campo de texto? Para el ejemplo de JetBlue ¿debo introducir mi nombre de usuario, mi dirección de correo electrónico, o mi número de TrueBlue? Para el ejemplo Caviar, ¿debería "Empezar" escribiendo en mi comida favorita, un restaurante preferido, o mi dirección? ¿Son los campos de precios para los valores mínimo y máximo, por encima y debajo, o antes y después?
 
@@ -167,7 +179,7 @@ Aquí está una manera más accesible de diseñar el campo compuesto precio que 
 
 ![]({{ site.baseurl }}/assets/price-field-compound.png)
 
-##6. Evita la crisis de identidad de componentes.
+## 6. Evita la crisis de identidad de componentes. #
 
 *Q: ¿Cuándo un menú ya no es un menú?
 R: Cuando se trata de un diálogo no modal.*
@@ -183,34 +195,37 @@ Conoce al humilde autocompletar.
 Aquí es lo mismo, pero con iconos junto a cada elemento de la lista.
 
 ![En este autocompletar, se utilizan iconos para el objeto de desambiguación.]({{ site.baseurl }}/assets/autocomplete-2.png)
-En este autocompletar, se utilizan iconos para el objeto de desambiguación.
+*En este autocompletar, se utilizan iconos para el objeto de desambiguación.*
+{:.center}
 
 Estos son esencialmente el mismo patrón exacto de interfaz de usuario. El usuario escribe en un campo de entrada. Un cuadro de resultados filtrados en el texto introducido aparece a continuación. El usuario puede utilizar las teclas de flecha o el mouse para localizar y seleccionar un elemento de la lista.
 
 El siguiente ejemplo es una función de autocompletar con una crisis de identidad. No sólo se puede filtrar y seleccionar un elemento de una lista por el usuario, se puede optar por editar o eliminar cada elemento de la lista haciendo clic en el icono del lápiz o el bote de basura. La adición de estos dos botones es lo que le da a este autocompletado una crisis de identidad.
 
 ![]({{ site.baseurl }}/assets/autocomplete-3.png)
-Un autocompletar con un conjunto de características ocultas que no pueden ser comunicada a la tecnología asistencial a través de técnicas estándar.
+*Un autocompletar con un conjunto de características ocultas que no pueden ser comunicada a la tecnología asistencial a través de técnicas estándar.*
+{:.center}
 
 Esto causa problemas de accesibilidad, en parte, porque rompe el formulario con el modelo de interacción de teclado estándar para un autocompletado. En la tecnología de asistencia no siempre se puede comunicar la identidad, la operación, y el estado de los componentes confusos, ya que WAI de la W3C no ha definido una especificación para la comunicación de este tipo de interfaz de usuario.
 
 La misma regla es válida para los menús. En los siguientes ejemplos de Virgin America, mientras tienen una visualización muy similar, sólo el menú desplegable de la derecha es un "menú" real. El de la izquierda es un cuadro de diálogo no modal.
 
 ![]({{ site.baseurl }}/assets/dropdown-menu.png)
-El "From" es un menú desplegable. El desplegable "Guests" es un cuadro de diálogo no modal como se define por la WAI de la W3C.
+*El "From" es un menú desplegable. El desplegable "Guests" es un cuadro de diálogo no modal como se define por la WAI de la W3C.*
 
 Un menú es un widget que ofrece al usuario una lista de opciones. Tan pronto como nos ofrecemos múltiples opciones por fila, como el ejemplo de la izquierda lo hace, ya no tenemos un menú. Esto cambia el modelo de interacción de teclado con teclas de flecha, a la utilización de la tecla de tabulación. Cambia cómo se maneja el foco del teclado y a dónde va una vez que la lista desplegable se ha cerrado.
 
 Al contrario que en el ejemplo anterior con completado automático, los cuadros de diálogo no modales, afortunadamente, pueden ser accesibles. Conoce acerca de la diferencia entre ellos y el efecto que tiene sobre la experiencia del usuario. Comprende cómo los cambios menores de diseño podrían dar lugar a cambios en el modelo de la interacción de un usuario. Esto te permitirá elegir el modelo adecuado para tu producto.
 
-##7. No hagas que la gente ronde por ahí para encontrar cosas.
+## 7. No hagas que la gente ronde por ahí para encontrar cosas. #
 
 Este principio sirve principalmente a personas con discapacidad motriz. Esto incluye a los usuarios de solo teclado que tienen visión, y los que usan herramientas de reconocimiento de voz como [Dragon NaturallySpeaking](http://www.nuance.com/dragon/index.htm) para interactuar con páginas web. Usuarios de teclado y tecnologías de apoyo como Dragon se basan en elementos accionables visibles en la pantalla. Si un enlace o botón no puede ser visto por Dragon, quiere decir que no puede ser "clicado" verbalmente. Si un usuario de sólo teclado no puede ver que existe un botón en una página, ¿cómo podemos esperar que ellos naveguen en el espacio vacío en el que en última instancia aparecerá?
 
 A continuación se muestra una captura de pantalla de Gmail con Dragon Naturally Speaking mostrando una superposición con hipervínculos identificados por números. El usuario puede ahora hablar un número en voz alta y activar un enlace. ¿Qué sucede si un enlace no es visible hasta que una región ponga sobre ella? Tendríamos números que se muestran junto a los espacios vacíos.
 
-![]({{ site.baseurl }}/assets/0*FqrNj6IGqTjOc021.)
-Dragon identifica hipervínculos por número. Diga el número en voz alta para hacer clic en un enlace.
+![]({{ site.baseurl }}/assets/hyperlink-by-number.png)
+*Dragon identifica hipervínculos por número. Diga el número en voz alta para hacer clic en un enlace.*
+{:.center}
 
 Entiendo cómo esta práctica de ocultar elementos procesables bajo estados de hover ganó popularidad. Sirve como una solución a la heurística de usabilidad bien establecida que señaló Informático Alan Kay.
 
@@ -247,7 +262,7 @@ A continuación se muestra una solución a los problemas de accesibilidad que e
 
 Cuando se realice hover sobre un campo, el texto se vuelve azul.
 
-![]({{ site.baseurl }}/assets/0*lunJEkgjuiZ8zvVf.)
+![]({{ site.baseurl }}/assets/hover-text-blue.png)
 
 Cuando se presenta este tipo de solución, los diseñadores pueden responder preguntando:
 

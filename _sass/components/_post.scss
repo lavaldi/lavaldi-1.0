@@ -65,4 +65,9 @@
     margin: $h2-font-size auto;
     text-align: left;
   }
+
+  img:not(.emoji){
+    display: block;
+    margin: 0 auto;
+  }
 }
