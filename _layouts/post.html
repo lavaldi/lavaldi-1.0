@@ -16,6 +16,22 @@ layout: default
 
     {% if page.comments %}
     <hr class="chapter">
+    <p><strong>Si te gustó el artículo, compártelo! :D</strong></p>
+    <div class="social-shared">
+      <!--Twitter-->
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="lavaldi_" data-size="large">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <!--Facebook-->
+      <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button_count"></div>
+      <!--Google+-->
+      <!-- Place this tag in your head or just before your close body tag. -->
+      <script src="https://apis.google.com/js/platform.js" async defer>
+        {lang: 'es-419'}
+      </script>
+      <!-- Place this tag where you want the share button to render. -->
+      <div class="g-plus" data-action="share" data-height="24"></div>
+    </div>
+    <hr>
     <p><strong>Me interesa tu opinión sobre este artículo ^_^</strong></p>
     <div id="disqus_thread"></div>
     <script>
