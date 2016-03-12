@@ -40,6 +40,8 @@
 
 .post-title{
   margin: 0;
+  font-size: 50px;
+  line-height: 58px;
 }
 
 .post-meta{
@@ -52,8 +54,15 @@
   max-width: 40em;
   margin: $h2-font-size auto;
 
+  h2{
+    font-size: 2em;
+  }
+  h3{
+    font-size: 1.5em;
+  }
+
   h1, h2, h3, h4{
-    max-width: 80%;
     margin: $h2-font-size auto;
+    text-align: left;
   }
 }
