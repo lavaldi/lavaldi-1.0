@@ -7,6 +7,7 @@ published: true
 status: publish
 categories: learn
 tags: affordance, Donald Normal, James J. Gibson, web design
+comments: true
 ---
 El término "affordance" es uno que oirás a menudo en el mundo del diseño web. Aparece regularmente en tutoriales, por lo que este artículo servirá como una definición sólo para aclarar cualquier duda ;)
 

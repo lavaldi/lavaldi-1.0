@@ -5,6 +5,7 @@ date: 2015-07-07 22:42:39 -05:00
 type: post
 categories: jesusfreak
 tags: amor
+comments: true
 ---
 El amor es concentrarse en las necesidades y el bienestar de los seres amados y pagar el precio necesario para satisfacer esas necesidades y fomentar ese bienestar.
 

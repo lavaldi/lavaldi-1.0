@@ -6,6 +6,7 @@ type: post
 categories: jesusfreak
 tags: sabiduría
 featured: true
+comments: true
 ---
 > Y di mi corazón a inquirir y a buscar con sabiduría sobre todo lo que se hace debajo del cielo
 

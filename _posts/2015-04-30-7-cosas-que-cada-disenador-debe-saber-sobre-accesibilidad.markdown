@@ -7,6 +7,7 @@ published: true
 status: publish
 categories: learn
 tags: accesibilidad, discapacitados, diseño
+comments: true
 ---
 Accesibilidad permite a las personas con discapacidad puedan percibir, entender, navegar, interactuar y contribuir a la web. Imagina un mundo donde los desarrolladores saben todo lo que hay que saber acerca de la accesibilidad. Se diseña y se construye ... perfectamente! En este mundo, sólo el propio diseño puede hacer que las personas con discapacidad tienen problemas para usar un producto.
 

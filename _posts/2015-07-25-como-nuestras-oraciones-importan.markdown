@@ -7,6 +7,7 @@ published: true
 status: publish
 categories: jesusfreak
 tags: oración
+comments: true
 ---
 Sabemos que Dios está en control de todas las cosas
 

@@ -7,6 +7,7 @@ published: true
 status: publish
 categories: me
 tags: poema
+comments: true
 ---
 Sí... no tengo hogar
 siempre he sido una gitana

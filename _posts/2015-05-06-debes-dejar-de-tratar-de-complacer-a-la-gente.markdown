@@ -7,6 +7,7 @@ published: true
 status: publish
 categories: jesusfreak
 tags: complacer, personas, relaciones
+comments: true
 ---
 ¿Has pasado por esos momentos donde sabes qué es lo que hay que hacer, pero te pones tan preocupado por lo que la gente va a pensar que no lo haces? Sí, todos hemos pasado por una experiencia como esta.
 

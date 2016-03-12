@@ -11,25 +11,7 @@ tags:
 - Dieter Rams
 - diseño
 - principios
-meta:
-  _thumbnail_id: '1522'
-  geo_public: '0'
-  _oembed_37d0f7b0e7facea2e0d7d282b208987a: "{{unknown}}"
-  _publicize_pending: '1'
-  publicize_facebook_url: https://facebook.com/429878900367225_919380561417054
-  publicize_google_plus_url: https://plus.google.com/+ClaudiaValdivieso/posts/NCeax1QMgNM
-  _wpas_done_3532641: '1'
-  _publicize_done_external: a:1:{s:8:"facebook";a:1:{i:737475070;b:1;}}
-  _wpas_done_6197447: '1'
-  publicize_twitter_user: lavaldi_
-  publicize_twitter_url: http://t.co/JGViMSldRo
-  _wpas_done_4823758: '1'
-author:
-  login: lavaldi
-  email: claumavaldivieso@gmail.com
-  display_name: lavaldi
-  first_name: ''
-  last_name: ''
+comments: true
 ---
 <p>El lema de diseño de Dieter Rams es <em>"Weniger, aber besser"</em> (<em>"Menos, pero mejor"</em>). Ha inspirado a muchos diseñadores industriales en los últimos 50 años (como Jonathan "Jony" Ive, que dio al mundo los diseños simplistas todavía refinados de Macs, iPods, iPads y iPhones).<!--more--></p>
 <p>Rams creían que <strong>la comprensión de la gente</strong> es la clave para un buen diseño. También alentó a los diseñadores y todos los demás a ser responsable del mundo que les rodea. Abogó contra el despilfarro e insta a los habitantes de la tierra a hacer un buen uso de sus recursos naturales limitados.</p>

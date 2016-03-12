@@ -7,6 +7,7 @@ published: true
 status: publish
 categories: learn
 tags: mitos, usabilidad, usuario, UX
+comments: true
 ---
 El diseño UX no tiene una definición oficial o estándar porque, aparte de los diversos componentes visuales, abarca arquitectura de la información, la investigación del usuario, wireframing y muchos elementos que juntos deciden el destino de UX. Lo más cercano a una definición de UX es la proporcionada por Nielsen Norman y que establece que <em>"la experiencia del usuario abarca todos los aspectos de la interacción del usuario final con la empresa, sus servicios y sus productos"</em>. Así, UX implica saber qué quieren los usuarios finales de un producto o un sistema, y la satisfacción de esas necesidades con perfección y de una manera que les deleite.
 
