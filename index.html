@@ -27,7 +27,7 @@ layout: default
         {% endfor %}
     </div>
   </section>
-  <!-- Section for featured works -->
+  <!-- Section for featured works
   <section class="site-section">
     <h1>last projects</h1>
     <ul class="work-list">
@@ -36,18 +36,21 @@ layout: default
       {% endfor %}
     </ul>
   </section>
-  <!-- Section for latest articles
+  -->
+  <!-- Section for latest articles -->
   <section class="site-section site-section-last">
     <div class="wrapper">
       <h1>latest articles</h1>
       <ul class="post-list">
         {% for post in site.posts | limit: 4 %}
-          <li class="post">
-            {% include post.html %}
-          </li>
+          {% if post.type == "post" %}
+            <li class="post">
+              {% include post.html %}
+            </li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
   </section>
-  -->
+
 </div>
