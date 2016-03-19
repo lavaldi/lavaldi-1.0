@@ -4,7 +4,7 @@ title: "About me"
 permalink: /about-me/
 ---
 
-<p><img src="/images/lavaldi.jpg" alt="La Valdi" class="avatar" /></p>
+<p style="margin-top:-8px;margin-bottom:30px;"><img src="/images/lavaldi.jpg" alt="La Valdi" class="avatar" /></p>
 
 Hola soy Claudia Valdivieso (alias "La Valdi"), soy front-end developer, escritora accidental y salva por la gracia de Dios ❤️❤️❤️.
 
