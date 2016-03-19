@@ -72,6 +72,9 @@
 .footer-social {
   text-align: right;
   width: 40%;
+  ul{
+    margin-left: 0;
+  }
   li {
     display: inline-block;
     margin: 0 0.5em;
@@ -86,4 +89,20 @@
 
 .site-section-last{
   padding-bottom: $h1-font-size
+}
+
+@include media-query($on-palm){
+  .footer-content, .footer-social{
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@include media-query($on-little-palm){
+  .site-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

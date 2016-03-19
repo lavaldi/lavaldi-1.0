@@ -270,3 +270,24 @@ hr {
 .center{
   text-align: center;
 }
+
+/**
+ * Media Queries
+ */
+
+@include media-query($on-palm){
+  h1{
+    font-size: 60px;
+  }
+}
+@include media-query($on-little-palm){
+  .mega{
+    font-size: 75px;
+  }
+  h1{
+    font-size: 45px;
+  }
+  h2{
+    font-size: 30px;
+  }
+}

@@ -1,7 +1,8 @@
 .work-list{
   @extend %clearfix;
-  padding: 0;
   list-style: none;
+  margin-left: 0;
+  padding: 0;
 }
 
 .work{
@@ -14,4 +15,16 @@
 .work-caption{
   margin-top: 0.5em;
   font-size: $h3-font-size;
+}
+
+@include media-query($on-laptop){
+  .work{
+    width: 50%;
+  }
+}
+
+@include media-query($on-palm){
+  .work{
+    width: 100%;
+  }
 }

@@ -1,6 +1,7 @@
 .post-list{
   @extend %clearfix;
   list-style: none;
+  margin-left: 0;
 }
 .post{
   float: left;
@@ -69,5 +70,18 @@
   img:not(.emoji){
     display: block;
     margin: 0 auto;
+  }
+}
+
+@include media-query($on-laptop){
+  .post{
+    float: none;
+    width: 100%;
+  }
+}
+
+@include media-query($on-palm){
+  .post{
+    padding: 0;
   }
 }
